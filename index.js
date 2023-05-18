@@ -75,7 +75,7 @@ function handleButtonClick() {
   var table = document.getElementById("myTable");
 
   var table = document.getElementById("myTable");
-  const strMisson = document.getElementById("mission").value;
+  const strMisson = document.getElementById("mission").value.trim();
 
   console.log(strMisson);
   if (strMisson.length > 30) {
